@@ -4,7 +4,7 @@ Servo regulator;
 const int gasPin = A0;
 const int buzzerPin = 8;
 const int fanPin = 7;
-int threshold = 300;
+int threshold = 260;
 
 unsigned long fanOnTime = 0;
 bool fanRunning = false;
